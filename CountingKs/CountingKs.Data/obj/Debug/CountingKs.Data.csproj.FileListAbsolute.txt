@@ -1,0 +1,16 @@
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.dll.config
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.dll
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.pdb
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\bin\Debug\EntityFramework.dll
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\bin\Debug\EntityFramework.xml
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.csprojResolveAssemblyReference.cache
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.dll
+C:\Users\Mariusz\Desktop\Baseline\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.pdb
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.dll.config
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\bin\Debug\CountingKs.Data.pdb
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\bin\Debug\EntityFramework.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\bin\Debug\EntityFramework.xml
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.csprojResolveAssemblyReference.cache
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs.Data\obj\Debug\CountingKs.Data.pdb
