@@ -182,3 +182,11 @@ C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\zh-Hant\Sy
 C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\obj\Debug\CountingKs.csprojResolveAssemblyReference.cache
 C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\obj\Debug\CountingKs.dll
 C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\obj\Debug\CountingKs.pdb
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.Web.Common.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.Web.Mvc.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\WebActivatorEx.dll
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.xml
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.Web.Common.xml
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\Ninject.Web.Mvc.xml
+C:\Users\Mariusz\Documents\GitHub\NewWebAPI\CountingKs\CountingKs\bin\WebApiContrib.IoC.Ninject.dll
