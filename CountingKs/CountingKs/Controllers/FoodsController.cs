@@ -7,18 +7,22 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Routing;
 
 namespace CountingKs.Controllers
 {
     public class FoodsController : BaseController
     {
 
-        public FoodsController(ICountingKsRepository repo) :base(repo)
+        const int PAGE_SIZE = 50;
+
+        public FoodsController(ICountingKsRepository repo)
+            : base(repo)
         {
         }
 
 
-        public IEnumerable<FoodModel> Get(bool includeMeasures = true)
+        public object Get(bool includeMeasures = true, int page = 0)
         {
             IQueryable<Food> query;
 
@@ -31,13 +35,29 @@ namespace CountingKs.Controllers
                 query = TheRepository.GetAllFoods();
             }
 
-            var result = query
-                .OrderBy(x => x.Description)
-                .Take(25)
+            var baseQuery = query
+                .OrderBy(x => x.Description);
+
+            var totalCount = query.Count();
+            var totalPages = Math.Ceiling((double)totalCount / PAGE_SIZE);
+
+            var helper = new UrlHelper(this.Request);
+            var prevUrl = helper.Link("Food", new { page = page - 1 });
+            var nextPage = helper.Link("Food", new { page = page + 1 });
+
+            var result = query.ToList().Skip(PAGE_SIZE * page)
+                .Take(PAGE_SIZE)
                 .ToList()
                 .Select(x => TheModelFactory.Create(x));
 
-            return result;
+            return new
+            {
+                TotalCount = totalCount,
+                TotalPages = totalPages,
+                NextUrl = nextPage,
+                PrevUrl = prevUrl,
+                Results = result,
+            };
         }
 
         public FoodModel Get(int foodid)
